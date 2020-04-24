@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    position: relative;
+}
+.boom{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 50px;
+    color: wheat;
+    text-transform: uppercase;
+    cursor: default;
+}
+.topMenu{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(42, 77, 100);
+    display: flex;
+    justify-content: space-around;
+     
+}   
+ul{
+    display: flex;
+    width: 100%;
+    
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+a{
+    display: inline-block;
+    color: wheat;
+    text-decoration: none;
+}
